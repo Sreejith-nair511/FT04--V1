@@ -1,0 +1,42 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- CogniShield Logo - Modernized Shield with AI Chip Pattern -->
+  
+  <!-- Define gradient -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6f8fff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5f7fe8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9badff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6f8fff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield background -->
+  <path d="M 64 10 L 100 30 L 100 60 C 100 85 64 110 64 110 C 64 110 28 85 28 60 L 28 30 Z" 
+        fill="url(#shieldGradient)" stroke="none"/>
+  
+  <!-- Checkmark (security symbol) -->
+  <g transform="translate(64, 65)">
+    <!-- Checkmark -->
+    <path d="M -20 0 L -8 12 L 18 -16" 
+          stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- AI Chip pattern (subtle circuit board aesthetic) -->
+  <g opacity="0.3" stroke="white" stroke-width="1.5" fill="none">
+    <!-- Vertical line -->
+    <line x1="35" y1="50" x2="35" y2="75"/>
+    <!-- Horizontal line -->
+    <line x1="30" y1="55" x2="40" y2="55"/>
+    <!-- Dot pattern -->
+    <circle cx="30" cy="50" r="1.5" fill="white"/>
+    <circle cx="40" cy="50" r="1.5" fill="white"/>
+    <circle cx="35" cy="70" r="1.5" fill="white"/>
+  </g>
+  
+  <!-- Inner shield border for depth -->
+  <path d="M 64 15 L 95 32 L 95 60 C 95 82 64 105 64 105 C 64 105 33 82 33 60 L 33 32 Z" 
+        fill="none" stroke="white" stroke-width="1.5" opacity="0.2"/>
+</svg>
